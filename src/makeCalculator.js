@@ -9,7 +9,7 @@ function makeCalculator() {
   // Helper function to perform operations
   const operate = (callback, number) => {
     result = callback(result, number);
-    return calculator; // return the calculator object for method chaining
+    return calculator;
   };
 
   // Methods for basic operations
@@ -21,7 +21,7 @@ function makeCalculator() {
   // Reset method to set result back to 0
   const reset = () => {
     result = 0;
-    return calculator; // return the calculator object for method chaining
+    return calculator;
   };
 
   // Return the object with methods
